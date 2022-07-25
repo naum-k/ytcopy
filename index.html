@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script crossorigin="anonymous" src="https://unpkg.com/feather-icons"></script> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="styles/header.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        asd1111111111
-    </h1>
+    <header>
+        <div class="left_section flex">
+        <img class="hamburger" src="./assets/header/hamburger-menu.svg" alt="">
+        <img class="logo" src="./assets/header/youtube-logo.svg" alt="">
+        </div>
+
+
+        <div class="middle_section flex">
+        <input class="search" type="text" placeholder="Search">
+        <button type="button"><img class="search_b" src="./assets/header/search.svg" alt=""></button>
+        <img class="voice" src="./assets/header/voice-search-icon.svg" alt="">
+
+        </div>
+        <div class="right_section flex">
+        <img src="./assets/header/upload.svg" alt="">
+        <img  src="./assets/header/notifications.svg" alt="">  
+        <img class="profile_p" src="assets/profilePic/unnamed (1).jpg" alt="">
+        </div>
+    </header>
+    
+    
+    <!-- <i data-feather="circle"></i> -->
+   
 </body>
+<script>
+    feather.replace();
+</script> 
 </html>

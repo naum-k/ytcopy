@@ -1,0 +1,77 @@
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 15px;
+    right: 0px;
+    left: 0px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.left_section {
+    
+    margin-inline: 20px;
+}
+
+.hamburger {
+    width: 26px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 15px;
+}
+
+.middle_section {
+   
+    flex: 1;
+    margin-inline: 50px;
+    justify-content: center;
+    
+}
+
+.search {
+    margin-right: -3px;
+    flex: 1;
+    width: 10px;
+    max-width: 300px;
+
+}
+
+.search_b {
+    width: 26px;
+    padding-inline: 6px;
+
+}
+
+.voice {
+    width: 26px;
+    margin-left: 10px;
+}
+
+.right_section {
+    justify-content: space-between;
+    width: 120px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.right_section img {
+    width: 26px;
+}
+
+.profile_p {
+    width: 36px !important;
+    height: 36px;
+    border-radius: 18px;
+}
+
+body {
+    height: 300vh;
+}
+
