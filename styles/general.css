@@ -1,4 +1,15 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     height: 300vh;
+    margin-top: 80px;
+    font-family: Arial;
+    margin-left: 70px;
+    
 }
+

@@ -1,0 +1,85 @@
+.preview {
+    margin-inline: 10px;
+}
+
+.thumbnail {
+    width: 100%;
+       
+}
+
+.bot_section {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 10px;
+    
+}
+
+.channel_pic {
+    width: 40px;
+    border-radius: 20px;
+}
+
+.text {
+    margin-left: 10px;
+}
+  
+.tittle {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.channel_name,
+.channel_info {
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+    margin-bottom: 5px;
+    
+}
+
+main {
+    display: grid;
+    justify-items: center;     
+}
+
+@media (min-width: 1200px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 850px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 849px) and (min-width: 550px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 549px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.th {
+    position: relative;
+}
+
+.timestamp {
+    position: absolute;
+    right: 8px;
+    bottom: 11px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding-inline: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
