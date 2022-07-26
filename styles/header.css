@@ -19,11 +19,11 @@ header {
 }
 
 .hamburger {
-    width: 26px;
+    width: 24px;
 }
 
 .logo {
-    width: 100px;
+    width: 90px;
     margin-left: 15px;
 }
 
@@ -39,18 +39,35 @@ header {
     margin-right: -3px;
     flex: 1;
     width: 10px;
-    max-width: 300px;
+    max-width: 520px;
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 2px;
+    font-size: 15px;
+    padding-left: 7px;
+    
 
 }
 
 .search_b {
-    width: 26px;
-    padding-inline: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 2px;
+    height: 39px;
 
 }
 
+.lupa {
+    width: 24px;
+    margin-inline: 10px;
+   
+    
+}
+
 .voice {
-    width: 26px;
+    width: 24px;
     margin-left: 10px;
 }
 
@@ -62,16 +79,12 @@ header {
 }
 
 .right_section img {
-    width: 26px;
+    width: 24px;
 }
 
 .profile_p {
-    width: 36px !important;
-    height: 36px;
-    border-radius: 18px;
-}
-
-body {
-    height: 300vh;
+    width: 34px !important;
+    height: 34px;
+    border-radius: 17px;
 }
 
